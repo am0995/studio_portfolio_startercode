@@ -1,5 +1,25 @@
 /* Nav Bar CSS */
 
+.navbar {
+    background-color: blueviolet;
+    color: black;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+}
+
+
+.navbar-default .navbar-brand {
+    color: black;
+}
+
+li .active {
+    background-color: aquamarine;
+}
+
+
+
 
 /* Header CSS */
 
