@@ -1,8 +1,13 @@
-/* Nav Bar CSS */
+body{
+    background-image: url("https://www.dramafever.com/st/news/images/09273e9f-843b-4468-8caf-ae1afb3029ec.jpg");
+    background-repeat: repeat;
+    background-size: contain;
+}
 
 .navbar {
     background-color: blueviolet;
     color: black;
+    text-align: center;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -18,28 +23,13 @@ li .active {
     background-color: aquamarine;
 }
 
+h1 {
+    text-align: center;
+    color: black;
+}
 
-
-
-/* Header CSS */
-
-
-
-/* Section CSS */
-
-
-
-/* About Section CSS */
-
-
-
-/* Portfolio Item CSS */
-
-
-
-/* Footer CSS */
-
-
-
-/* Button CSS */
-
+p{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}

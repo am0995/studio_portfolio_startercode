@@ -1,0 +1,48 @@
+[debug] [2017-10-30T22:07:58.753Z] ----------------------------------------------------------------------
+[debug] [2017-10-30T22:07:58.756Z] Command:       /home/ubuntu/.nvm/versions/node/v6.11.2/bin/node /home/ubuntu/.nvm/versions/node/v6.11.2/bin/firebase database:set /projects projects.json
+[debug] [2017-10-30T22:07:58.756Z] CLI Version:   3.14.0
+[debug] [2017-10-30T22:07:58.757Z] Platform:      linux
+[debug] [2017-10-30T22:07:58.757Z] Node Version:  v6.11.2
+[debug] [2017-10-30T22:07:58.757Z] Time:          Mon Oct 30 2017 22:07:58 GMT+0000 (UTC)
+[debug] [2017-10-30T22:07:58.757Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-10-30T22:07:58.769Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2017-10-30T22:07:58.770Z] > authorizing via signed-in user
+[debug] [2017-10-30T22:07:58.772Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-10-30T22:07:58.772Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/L0BmOohWkAVWR7BoUOaGzv6-FIqsrtbG8e8b96zCWShwyso0MObQVBgakBsJB_qB',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Oct 30 2017 22:07:58 GMT+0000 (UTC)
+[debug] [2017-10-30T22:07:58.879Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-30T22:07:58.886Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/stickers-portfolio  
+ Mon Oct 30 2017 22:07:58 GMT+0000 (UTC)
+[debug] [2017-10-30T22:07:59.067Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-30T22:07:59.068Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/stickers-portfolio/tokens  
+ Mon Oct 30 2017 22:07:59 GMT+0000 (UTC)
+[debug] [2017-10-30T22:07:59.369Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-30T22:08:06.338Z] Error: ENOENT: no such file or directory, open 'projects.json'
+    at Error (native)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2017-10-30T22:08:44.799Z] ----------------------------------------------------------------------
+[debug] [2017-10-30T22:08:44.802Z] Command:       /home/ubuntu/.nvm/versions/node/v6.11.2/bin/node /home/ubuntu/.nvm/versions/node/v6.11.2/bin/firebase database:set /projects projects.json
+[debug] [2017-10-30T22:08:44.802Z] CLI Version:   3.14.0
+[debug] [2017-10-30T22:08:44.803Z] Platform:      linux
+[debug] [2017-10-30T22:08:44.803Z] Node Version:  v6.11.2
+[debug] [2017-10-30T22:08:44.803Z] Time:          Mon Oct 30 2017 22:08:44 GMT+0000 (UTC)
+[debug] [2017-10-30T22:08:44.803Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-10-30T22:08:44.816Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2017-10-30T22:08:44.816Z] > authorizing via signed-in user
+[debug] [2017-10-30T22:08:44.819Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/stickers-portfolio  
+ Mon Oct 30 2017 22:08:44 GMT+0000 (UTC)
+[debug] [2017-10-30T22:08:45.041Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-30T22:08:45.042Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/stickers-portfolio/tokens  
+ Mon Oct 30 2017 22:08:45 GMT+0000 (UTC)
+[debug] [2017-10-30T22:08:45.434Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-30T22:08:47.917Z] Error: ENOENT: no such file or directory, open 'projects.json'
+    at Error (native)
+[error] 
+[error] Error: An unexpected error has occurred.
